@@ -1,4 +1,7 @@
 #[test]
+
 fn it_works() {
-    assert_eq!(2 + 2, 4);
+    // use super::server::Server;
+    assert_eq!(!(128u8 ^ 0u8) + 1, 128);
+    // eprintln!("{:?}", Server::new());
 }

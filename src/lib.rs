@@ -1,4 +1,6 @@
+#![allow(dead_code)]
+
 #[cfg(test)]
 mod tests;
 
-pub mod server;
+mod server;
